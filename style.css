@@ -284,43 +284,34 @@ pre {
 /* ================= SKILLS ================= */
 
 .skill-category {
-  margin-top: 16px;
-  margin-bottom: 36px;
+  margin-bottom: 48px;
+}
+
+.skill-category:last-child {
+  margin-bottom: 0;
 }
 
 .skill-category h3 {
-  font-size: 15px;
-  color: var(--muted);
-  margin-bottom: 14px;
+  font-size: 18px;
+  color: var(--text);
+  margin: 0 0 18px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .skill-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
-.skill-grid span,
-.tags span {
+.skill-grid span {
   border: 1px solid var(--line);
   background: var(--panel-2);
   border-radius: 999px;
-  padding: 8px 13px;
+  padding: 10px 16px;
   color: #ddd;
-  font-size: 13px;
-}
-
-.tags {
-  display: flex;
-  gap: 7px;
-  flex-wrap: wrap;
-}
-
-.tags span {
-  padding: 5px 10px;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 
