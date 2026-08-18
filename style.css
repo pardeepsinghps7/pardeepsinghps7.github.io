@@ -66,6 +66,12 @@ pre { padding:26px; overflow:auto; margin:0; color:#d8d8d8; font-size:14px; line
 .project p { color:var(--muted); margin:0 0 20px; }
 .tags { display:flex; gap:7px; flex-wrap:wrap; }
 .tags span { padding:5px 10px; font-size:11px; }
+.project-actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 .timeline { border-left:1px solid var(--line); padding-left:30px; }
 .timeline-item { display:grid; grid-template-columns:120px 1fr; gap:30px; padding:0 0 48px; position:relative; }
 .timeline-item::before { content:""; width:9px; height:9px; border-radius:50%; background:var(--accent); position:absolute; left:-35px; top:8px; }
